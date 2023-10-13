@@ -1,0 +1,284 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 1535px) {
+    body {
+      width: 1444px;
+    }
+}
+
+.navbar{
+    background-color: #FFFFFF;
+}
+
+.container-navbar{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#logo{
+    width: 150px;
+    height: 100px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.dropbtn{
+    color: #E0004D;
+    font-size: 25px;
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    text-decoration: underline;
+    border: none;
+    height: 38px;
+    width: 160px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+    margin-top: -10px;
+    margin-left: -6px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {
+    background-color: #E0004D; 
+    color: #FFFFFF;
+}
+
+.navbar-underline{
+    border: 1px solid #E0004D;
+    opacity: 100%;
+    width: 1600px;
+    margin-left: -1px;
+    margin-top: 10px;
+}
+
+.button-register{
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFD23B;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 55px;
+    margin-left: 300px;
+}
+
+.button-login{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 55px;
+    margin-left: 20px;
+}
+
+.container3{
+    background-color: #E5AF24;
+    height: 1000px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.column11{
+    display: flex;
+}
+
+.column2{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.photo1{
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.photo2{
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    margin-left: -170px;
+    margin-top: 50px;
+}
+
+.photo3{
+    width: 300px;
+    height: 300px;
+    z-index: 3;
+    margin-top: 270px;
+    margin-left: -270px;
+}
+
+.photo4{
+    width: 350px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.c3-title{
+    color: #E0004D;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.c3-title2{
+    color: #E0004D;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.c3-title3{
+    color: #E0004D;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.content3{
+    background-color: #FFD23B;
+    width: 500px;
+    height: 650px;
+    position: relative;
+    z-index: 2;
+}
+
+.content4{
+    background-color: #FFD23B;
+    opacity: 50%;
+    width: 500px;
+    height: 650px;
+    margin-left: -20px;
+    margin-top: -630px;
+    position: relative;
+    z-index: 1;
+}
+
+.form-regist{
+    margin-left: 20px;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+#email, #password, #fname, #lname, #birthdate, #phonenumber{
+    background-color: #FFD23B;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+::placeholder{
+    color: #000000;
+}
+
+select{
+    background-color: #FFD23B;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+#course{
+    margin-left: 30px;
+}
+
+#payment{
+    margin-left: 30px;
+}
+
+option{
+    background-color: #FFFFFF;
+}
+
+.button-submit{
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 160px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #E0004D;
+    height: 110px;
+    display: flex;
+}
+
+.footer-text{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.footer-text1{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer-logo1{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.f-logo1{
+    margin-right: 15px;
+}
+
+.footer-logo-text{
+    color: #FFFFFF;
+    margin-left: 560px;
+    margin-top: 10px;
+}
+
+.f-logo3{
+    width: 200px;
+    height: 50px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
